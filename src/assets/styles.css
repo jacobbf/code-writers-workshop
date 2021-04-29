@@ -1,0 +1,116 @@
+html {
+  font-family: var(--sans);
+  line-height: 1.375rem;
+  font-size: 16px;
+  color: var(--green);
+  --green: #1d8f00;
+  --sans: Arial, Helvetica, sans-serif;
+  --serif: "Wremena", "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-family: var(--sans);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: inherit;
+  font-weight: normal;
+  font-family: var(--sans);
+}
+
+h1 {
+  margin: 0 0 0.8rem;
+  text-transform: uppercase;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+li > * {
+  max-width: 34em;
+  overflow-x: hidden;
+  white-space: nowrap;
+  display: block;
+  text-overflow: ellipsis;
+}
+
+p {
+  margin: 0 0 0.5rem 0;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.info {
+  max-width: 26em;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.markdown {
+  width: 100%;
+}
+
+.markdown strong {
+  font-family: var(--serif);
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+
+.markdown > * {
+  margin: 0 0 0.5rem 0;
+}
+
+.markdown > h2 {
+  margin-left: 3.25rem;
+}
+
+.markdown > h2:not(:first-child) {
+  margin-top: 2.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .markdown > h2 {
+    margin-left: 7.25rem;
+  }
+
+  body {
+    padding: 1.25rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    flex-flow: row nowrap;
+    column-gap: 3rem;
+    align-items: flex-start;
+  }
+
+  .info {
+    position: sticky;
+    top: 1.25rem;
+  }
+}
