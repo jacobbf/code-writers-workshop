@@ -11,7 +11,7 @@ description: >
 
 ## Week 2: Selecting tools and coding prototypes
 **Colonialism & the web in general.**
-- [Ivan Illich, Silence is a Commons](/ivan-illich-silence-is-a-commons.pdf)
+- [Ivan Illich, Silence is a Commons](/cww/ivan-illich-silence-is-a-commons.pdf)
 - [Nabil Hassein, Against Black Inclusion in Facial Recognition](https://nabilhassein.github.io/blog/against-black-inclusion-in-facial-recognition/)
 - [Nabil Hassein, Computing, climate change, and all our relationships](https://nabilhassein.github.io/blog/computing-climate-change-and-all-our-relationships/)
 - [Ramsey Nasser, Unplain Text](https://increment.com/programming-languages/unplain-text-primer-on-non-latin/) 
@@ -25,7 +25,7 @@ description: >
 ## Week 4: Building out projects
 **Material, aesthetics & genre.**
 - Olia Lialina, Vernacular Web&nbsp;[Part 1](http://art.teleportacia.org/observation/vernacular/),&nbsp;[Part 2](http://contemporary-home-computing.org/vernacular-web-2/),&nbsp;[Part 3](http://contemporary-home-computing.org/prof-dr-style/)
-- [New strategies—Printmaking as a spatial process, as a transmissional process, and as a spatial-transmissional process](/päivikki-kallio-new-strategies.pdf)
+- [New strategies—Printmaking as a spatial process, as a transmissional process, and as a spatial-transmissional process](/cww/päivikki-kallio-new-strategies.pdf)
 - [Stop trying to make the web look 'beautiful' – I've forgotten it already](https://www.theguardian.com/news/oliver-burkeman-s-blog/2014/feb/04/facebook-paper-aesthetic-web-beautiful)
 - [Laurel Schwulst, My website is a shifting house next to a river of knowledge. What could yours be?](https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)
 - [Our Aesthetic Categories: An Interview With Sianne Ngai](https://www.cabinetmagazine.org/issues/43/jasper_ngai.php)
