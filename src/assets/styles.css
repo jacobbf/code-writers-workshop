@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Wremena;
+  font-style: regular;
+  src: 
+    url(/assets/Wremena.woff2) format("woff2"), 
+    url(/assets/Wremena.woff) format("woff");
+}
+
 html {
   font-family: var(--sans);
   line-height: 1.375rem;
@@ -5,8 +13,6 @@ html {
   --sans: Helvetica, sans-serif;
   --serif: "Wremena", "Times New Roman", Times, serif;
   letter-spacing: .03em;
-  color: white;
-  background-color: #1531b9;
 }
 
 body {
@@ -17,7 +23,7 @@ body {
 a:link,
 a:visited {
   display: inline-block;
-  color: inherit;
+  color: blue;
 }
 
 a:hover {
@@ -94,7 +100,6 @@ p {
     padding: 1.25rem 2rem;
   }
 }
-
 
 @media screen and (min-width: 980px) {
   .markdown {
