@@ -2,7 +2,7 @@
 layout: layouts/cww.njk
 title: Code Writers' Workshop
 description: > 
-  A five week workshop run at Index Space in the spring of 2021 where we sincerely asked the question, "How should we make things on the internet?"
+  A five week workshop run at Index Space in the spring of 2021 where we sincerely asked the question, "How should we make things on the internet?" while making something on a internet.
 tools: 
   - name: Kirby
     link: https://getkirby.com/
