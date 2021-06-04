@@ -22,7 +22,6 @@ body {
 
 a:link,
 a:visited {
-  display: inline-block;
   color: blue;
 }
 
@@ -51,6 +50,7 @@ ul {
 li {
   list-style: none;
   display: flex;
+  flex-flow: row wrap;
 }
 
 li > * {
@@ -61,48 +61,66 @@ li > * {
   text-overflow: ellipsis;
 }
 
+hr {
+  color: black;
+}
+
 p {
   margin: 0 0 0.5rem 0;
 }
 
-.info {
-  max-width: 26em;
-  width: 100%;
-  margin-bottom: 2rem;
+.container > * {
+  margin-bottom: 4rem;
 }
 
-.markdown {
+.markdown > * {
+  margin: 0 0 0.25rem 0;
+}
+
+.weeks {
   column-count: 1;
   column-gap: 3rem;
 }
 
-.markdown strong {
+.weeks strong {
   font-family: var(--serif);
   font-weight: normal;
   letter-spacing: 0;
   font-size: 1.125rem;
 }
 
-.markdown > * {
-  margin: 0 0 0.5rem 0;
+.weeks h3 {
+  text-indent: 1rem;
 }
 
-.markdown > h2 {
-  margin-left: 3.25rem;
+.weeks ul {
+  margin-bottom: 2.5rem;
 }
 
-.markdown > h2:not(:first-child) {
-  margin-top: 2.5rem;
+.people h3:after {
+  content: ':';
+}
+
+.people > * {
+  margin: 0;
+}
+
+.people * {
+  display: inline;
 }
 
 @media screen and (min-width: 750px) {
   body {
     padding: 1.25rem 2rem;
   }
+
+  .weeks h3 {
+    text-indent: 3.25rem;
+  }
 }
 
 @media screen and (min-width: 980px) {
-  .markdown {
+  .weeks .markdown {
     column-count: 2;
   }
 }

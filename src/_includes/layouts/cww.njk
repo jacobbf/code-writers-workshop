@@ -1,12 +1,29 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="info">
+<header class="info">
   <h1>{{ title }}</h1>
-  {# <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tortor eu ex viverra condimentum sed vitae augue. Suspendisse eros lacus, sollicitudin ut cursus eu, dictum ut nibh. Vivamus ac nisl ut nisi aliquam venenatis. Maecenas eu nisl convallis, porta ipsum et, porttitor diam.
-  </p> #}
-</div>
-<div class="markdown">
-  {{ content | safe }} 
-</div>
+
+  <p>
+    {{ description }}
+  </p>
+    
+  <div class="people">
+    <h3>People</h3>
+    
+    <ul>
+      {% for person in people | secondNameSort %}
+        <li>
+          <a href="{{ person.link }}">{{ person.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</header>
+
+
+<article class="weeks">
+  <div class="markdown">
+    {{ content | safe }} 
+  </div>
+</article>

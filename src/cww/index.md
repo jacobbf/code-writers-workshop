@@ -2,7 +2,26 @@
 layout: layouts/cww.njk
 title: Code Writers' Workshop
 description: > 
-  What’s a website? Are these good tools? How should people interact with this? Should people interact with this?
+  A five week workshop run at Index Space in the spring of 2021 where we sincerely asked the question, "How should we make things on the internet?"
+people:
+  - name: Charlotte Miller
+    link: http://charlottemiller.nyc/
+  - name: Emma Grapek
+    link: https://e.grapek.art/
+  - name: Grady Congdon
+    link: https://gradycongdon.github.io/
+  - name: Ioan Butiu
+    link: https://ioan.design/
+  - name: Joy/Jade
+    link: http://joy-jade.com/
+  - name: Laura Sinisterra
+    link: https://laurasinisterra.github.io/archive-site/
+  - name: Lorraine Li
+    link: https://lorraine.li/
+  - name: Sam Winfield
+    link: https://samwinfield.com/
+  - name: Soomin Kim
+    link: https://uiwoos.com/
 ---
 
 ### Week 1: Sketching concepts and scoping projects
