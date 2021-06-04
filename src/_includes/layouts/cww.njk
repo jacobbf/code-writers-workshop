@@ -19,6 +19,19 @@ layout: layouts/base.njk
       {% endfor %}
     </ul>
   </div>
+
+
+  <div class="tools">
+    <h3>Tools</h3>
+    
+    <ul>
+      {% for tool in tools %}
+        <li>
+          <a href="{{ tool.link }}">{{ tool.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </header>
 
 

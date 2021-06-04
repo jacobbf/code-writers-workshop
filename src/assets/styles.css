@@ -97,14 +97,22 @@ p {
   margin-bottom: 2.5rem;
 }
 
+.tools,
+.people {
+  margin: 0 0 0.5rem 0;
+}
+
+.tools h3:after,
 .people h3:after {
   content: ':';
 }
 
+.tools > *,
 .people > * {
   margin: 0;
 }
 
+.tools *,
 .people * {
   display: inline;
 }

@@ -3,6 +3,15 @@ layout: layouts/cww.njk
 title: Code Writers' Workshop
 description: > 
   A five week workshop run at Index Space in the spring of 2021 where we sincerely asked the question, "How should we make things on the internet?"
+tools: 
+  - name: Kirby
+    link: https://getkirby.com/
+  - name: 11ty
+    link: https://www.11ty.dev/
+  - name: React
+    link: https://reactjs.org/
+  - name: Are.na API
+    link: https://dev.are.na/
 people:
   - name: Charlotte Miller
     link: http://charlottemiller.nyc/
