@@ -1,5 +1,5 @@
 const inputDirectory = 'src';
-const passThroughPaths = ['assets']
+const passThroughPaths = ['assets', 'library']
 
 module.exports = function (eleventyConfig) {
   passThroughPaths.forEach(path => {
@@ -7,8 +7,6 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addWatchTarget(`${inputDirectory}/assets/style.css`)
-
-  eleventyConfig.addPassthroughCopy(`${inputDirectory}/**/*.pdf`);
 
   eleventyConfig.setTemplateFormats([
     // Templates:
