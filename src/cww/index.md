@@ -13,6 +13,8 @@ tools:
   - name: Are.na API
     link: https://dev.are.na/
 people:
+  - name: Jake Brussel Faria (Instructor)
+    link: https://jakebf.com/
   - name: Charlotte Miller
     link: http://charlottemiller.nyc/
   - name: Emma Grapek
