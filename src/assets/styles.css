@@ -95,10 +95,12 @@ p {
 
 .weeks h3 {
   text-indent: 1rem;
+  break-before: always;
 }
 
 .weeks ul {
   margin-bottom: 2.5rem;
+  break-inside: avoid;
 }
 
 .tools,
